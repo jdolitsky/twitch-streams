@@ -1,0 +1,44 @@
+h2 {
+	background: #caa073;
+	color: white;
+}
+
+.generictopic {
+	color: black;
+}
+
+.othertopic {
+	color: blue;
+	background: pink;
+}
+
+#topicb {
+	color: purple;
+	font-size:30px;
+}
+
+a {
+	color: green;
+}
+
+a:hover {
+	color: blue;
+}
+
+.menubutton {
+	width: 100px;
+    background: lightblue;
+    padding: 10px;
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.menubutton:hover {
+	background:blue;
+}
+
+#userform {
+	margin-top:50px;
+}
+
