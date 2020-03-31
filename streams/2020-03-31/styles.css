@@ -1,0 +1,114 @@
+body {
+    background: #355d73;
+    text-align: center;
+}
+
+
+#title {
+    color: #1f2660;
+}
+
+#main {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 30px;
+    background: #fff5e9;
+    border-radius: 6px;
+    border: 3px solid #11315a;
+    text-align:center;
+}
+
+#icon {
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #f0e7d1;
+}
+
+#searchbar {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 22px;
+}
+
+#countries {
+    width: 100%;
+    font-size: 2em;
+    border: 3px solid #f2550b;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 10px;
+    border: 3px solid #e4d4cc;
+}
+
+#searchbar h3 {
+    text-align: left
+}
+
+#searchouter {
+    margin-top:30px;
+    display:none;
+}
+
+#iframeouter {
+    display: none;
+}
+iframe {
+    width: 100%;
+    min-height: 600px;
+    border-radius: 11px;
+    border: 1px solid #c9c9c9;
+    background: #ececec;
+}
+
+#query {
+    width: 80%;
+    font-size: 2em;
+    border: 3px solid #f2550b;
+    border-radius: 10px 0px 0px 10px;
+    border-right: 0px;
+    padding-left: 10px;
+}
+
+#query:focus {
+    outline: none;
+}
+
+#searchbutton {
+    display: inline;
+    float: right;
+    width: 20%;
+    height: 46px;
+    border: 3px solid #96264a;
+    font-weight: bold;
+    font-family: monospace;
+    background: #fbffd9;
+    font-size: 0.7em;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+#builtby {
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 0.9em;
+    font-style: italic;
+    color: white;
+}
+
+#countryflag {
+    display: none;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#builtby a {
+    color: #a69be0;
+}
+
+#searchbutton:hover {
+    background: #e2ec88;
+}
+
+#searchbutton:focus {
+    outline: none;
+}
